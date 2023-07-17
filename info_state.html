@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='robots' content='noindex,noarchive,nofollow'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <title>National Park Info</title>
+</head>
+<body>
+    <header>
+        <h1>National Park Info</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="info_state.html" class="current">Info by State</a>
+        <a href="info_park.html">Info by Park</a>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>Info</h2>
+            
+            <fieldset>
+                <legend>Please select the state that you would like info about.</legend>
+                
+                <select 
+                    name="states" id="optionGroups" size="1" tabindex="1">
+                    <option>-- Select --</option>
+                    <option value="random">Random</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>                    
+                </select>
+                <label for="submit"> 
+                    <input type="submit" 
+                        name="submit" id="submit" 
+                        tabindex="2"
+                        value="Submit"  
+                    /></label>
+            </fieldset>
+                
+        </section>
+    </main>
+    
+    <footer>&copy; 2023 Elizabeth M. Ward</footer>
+</body>
+</html>
